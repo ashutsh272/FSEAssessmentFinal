@@ -62,7 +62,7 @@ public class FSEUserRepoTest {
 	    assert(found.get(0).getLastName()).equalsIgnoreCase(fseUser.getLastName());
 	}
 	
-	@Test
+	//@Test
 	public void whenFindByUserId_thenReturnFSEUaser() {
 		Long id = 1L;
 		
