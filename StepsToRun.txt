@@ -1,0 +1,19 @@
+
+============================================================
+All the deliverables of Final Assessment are included in the zipped folder uploaded in iiht portal.
+
+Also the same set of deliverables are available in the GIT repository - https://github.com/ashutsh272/FSEAssessmentFinal
+=============================================================
+
+1.
+Take the source code folder of UI application and open it in VSC. On the VSC command prompt execute below commands to run the UI. 
+	npm install
+	ng serve
+
+After cpmletion the UI can be viewed in any browser(http://localhost:4200/)
+
+2. 
+Run the backend API by any standard approach(use IDE or run as a jar) and make the services available. on: http://localhost:8080/<<resourcepath>>)
+
+After this step the UI and backed will work in sync. as the URLs are used based on the above host and ports. In cases changes are done to the same, UI code needs to be changed to point to back end accordingly. 
+
