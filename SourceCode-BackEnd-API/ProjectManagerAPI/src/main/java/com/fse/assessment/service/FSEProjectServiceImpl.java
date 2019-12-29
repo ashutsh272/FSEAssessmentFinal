@@ -148,8 +148,10 @@ public class FSEProjectServiceImpl implements FSEProjectService {
 
 	@Override
 	public BaseResponse updateProject(FSEProjectDTO project) {
-		// TODO Auto-generated method stub
-		return null;
+		BaseResponse response = new BaseResponse();
+		//TODO
+		response.setResult(new BaseResult());
+		return response;
 	}
 
 }

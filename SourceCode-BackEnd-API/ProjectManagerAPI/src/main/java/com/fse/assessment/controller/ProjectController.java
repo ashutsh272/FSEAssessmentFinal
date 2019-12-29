@@ -53,7 +53,7 @@ public class ProjectController {
 	public BaseResponse updateProject(@RequestBody FSEProjectDTO project) {
 		System.out.println("Request received for updateProject");
 		//return fseProjectServiceImpl.updateProject(project);
-		return fseProjectServiceImpl.addProject(project);
+		return fseProjectServiceImpl.updateProject(project);
 		
 	}
 
